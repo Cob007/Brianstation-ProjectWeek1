@@ -78,7 +78,7 @@ body {
 
 .header-nav-banner__section--description {
     font-size: 0.75rem;
-    font-weight: 400;
+    font-weight: 500;
     color: #393939;
 }
 
@@ -228,7 +228,7 @@ strong {
 }
 
 .footer_container--box__item__details {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     color: #393939;
     font-weight: 500;
 
