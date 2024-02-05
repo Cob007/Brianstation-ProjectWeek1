@@ -2,54 +2,6 @@ body {
     font-family: 'Open Sans';
 }
 
-.nav_bar {
-    background-color: #FFF0ED;
-    font-family: 'Open Sans';
-    margin: auto;
-}
-
-.nav_bar--logo__title,
-.nav_bar--logo__icon {
-    align-items: center;
-}
-
-.nav_bar--logo__title {
-    font-family: 'Open Sans';
-    font-size: 2rem;
-    color: #393939;
-    font-weight: 300;
-
-}
-
-.nav_bar--div,
-.nav_bar--d {
-    display: flex;
-    align-items: center;
-}
-
-.nav_bar--list {
-    list-style: none;
-}
-
-.nav_bar--list__item {
-    display: inline;
-    font-family: 'Open Sans';
-    font-size: 1rem;
-    text-decoration: none;
-    color: #393939;
-    font-weight: 400;
-    margin: 0px 8px 0px 16px;
-}
-
-.nav_bar--list__page__selected {
-    font-family: 'Open Sans';
-    font-size: 1rem;
-    color: #5BACC3;
-    text-decoration: none;
-
-}
-
-
 .header-nav-banner {
     display: flex;
     font-family: 'Open Sans';
@@ -77,8 +29,8 @@ body {
 }
 
 .header-nav-banner__section--description {
-    font-size: 0.75rem;
-    font-weight: 500;
+    font-size: 0.9rem;
+    font-weight: 400;
     color: #393939;
 }
 
