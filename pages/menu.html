@@ -8,66 +8,109 @@
         rel="stylesheet">
     <title>Coffee Shop - Menu</title>
     <link href="../css/menu.css" rel="stylesheet"/>
+    <link href="../css/global.css" rel="stylesheet"/>
 </head>
 
 <body>
     <header>
-        <img href="" alt="nitro"/>
-        <nav>
-            <ul>
-                <li><a href="">ABOUT</a></li>
-                <li><a href="">MENU</a></li>
-                <li><a href="">SHOP NOW</a></li>
-            </ul>
-        </nav>
+        <div class="header_container">
+            <div class="nav_bar--logoname">
+                <img src="../assets/coffee-beans-logo-and-footer.svg" alt="nitro"/>
+                <h2 class="nav_bar--logo__title">nitro</h2>
+            </div>
+            <nav class="nav_bar">
+                <ul class="nav_bar--list">
+                    <li class="nav_bar--list__item">
+                        <a class="nav_bar--list__item" href="">ABOUT</a>
+                    </li>
+                    <li class="nav_bar--list__item">
+                        <a class="nav_bar--list__item" href="">MENU</a>
+                    </li>
+                    <li class="nav_bar--list__item">
+                        <a class="nav_bar--list__item nav_bar--list__page__selected" href="">SHOP NOW</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
     </header>
     <main>
-        <h1>Menu</h1>
-        <ul>
-            <li><a href="">Hot Drinks</a></li>
-            <li><a href="">Cold Drinks</a></li>
-            <li><a href="">Pastries</a></li>
-        </ul>
-
-        <h2>Hot Drinks</h2>
-        <h3>In-house Brew</h3>
-        <p>Our in-house medium roast is a classic balance between sweet vanilla, nutty hazelnut, and a smooth low
-            acidity to bring everything together.
-        </p>
-        <p>$2.99</p>
-        <h3>Espresso</h3>
-        <p>A balance between bold and smooth, powerful and sweet, our signature espresso blend is a complex flavor
-            profile. It features strong notes of semi-sweet chocolate and caramel, with mild acidity and a bright floral
-            finish.</p>
-        <p>$4.99</p>
-        <h2> Cold Drinks
-        </h2>
-        <h3>Cold Brew</h3>
-        <p>Our bright and delicious coffee blend, brewed over ice to give you a cold coffee freshness with all the
-            flavor of
-            our amazing in-house coffee.</p>
-        <p>
-            $3.99
-        </p>
-        <h3>Iced Chai Latte</h3>
-        <p>A creamy drink with a kick, this drink features spicy chai tea blended with your choice of milk and poured over
-            ice.</p>
-        <p>
-            $6.99
-        </p>
-        <h2> Pastries
-        </h2>
-        <h3>Bacon Oatmeal Raisin Cookie</h3>
-        <p>An infused bacon, sugar and egg mixture is folded into a perfect blend of oats, flour, raisins and cinnamon to
-            create a soft and chewy textured cookie.</p>
-        <p>
-            $3.50
-        </p>
-        <h3>Blueberry, Lemon and Thyme Muffin</h3>
-        <p>ATart and sweet, this classic blueberry and lemon combination comes with an earthy twist.</p>
-        <p>
-            $2.50
-        </p>
+        <div class="main-menu--header">
+            <div class="main-menu--titlebox">
+                <h1 class="main-menu--textmenu">MENU</h1>
+            </div>
+            <img class="main-menu--background" src="../assets/coffee-circle.jpg" />  
+            <ul class="main-category--list">
+                <li class="main-category--list_item">
+                    <a class="main-category--list__itemtext" href="">Hot Drinks</a>
+                </li>
+                <li class="main-category--list_item">
+                    <a class="main-category--list__itemtext" href="">Cold Drinks</a>
+                </li>
+                <li class="main-category--list_item">
+                    <a class="main-category--list__itemtext" href="">Pastries</a>
+                </li>
+            </ul>
+            <div class="main-body--category"> 
+                <div>
+                    <h2 class="main-body--category-header">Hot Drinks</h2>
+                    <section class="main-body--category-sub">
+                        <h3 class="main-body--category-sub__text">In-house Brew</h3>
+                        <p class="main-body--category-sub__detailedtext">Our in-house medium roast is a classic balance between<br>sweet vanilla, nutty hazelnut, and a smooth low
+                            acidity to<br> bring everything together.
+                        </p>
+                        <p class="main-body--category-sub__amount">$2.99</p>
+                    </section>
+                    <section class="main-body--category-sub">
+                        <h3 class="main-body--category-sub__text">Espresso</h3>
+                        <p class="main-body--category-sub__detailedtext">A balance between bold and smooth, powerful and sweet, our<br>signature espresso blend is a complex flavor
+                            profile. It<br>features strong notes of semi-sweet chocolate and caramel,<br>with mild acidity and a bright floral
+                            finish.</p>
+                        <p class="main-body--category-sub__amount">$4.99</p>
+                    </section>
+                </div>
+            </div>
+            <div class="main-body--category main-body--category--second"> 
+                <div>
+                    <h2 class="main-body--category-header">Cold Drinks</h2>
+                    <section class="main-body--category-sub">
+                        <h3 class="main-body--category-sub__text">Cold Brew</h3>
+                        <p class="main-body--category-sub__detailedtext">
+                            Our bright and delicious coffee blend, brewed over ice to give<br>
+                            you a cold coffee freshness with all the flavor of our amazing<br> in-house coffee.
+                        </p>
+                        <p class="main-body--category-sub__amount">$3.99</p>
+                    </section>
+                    <section class="main-body--category-sub">
+                        <h3 class="main-body--category-sub__text">Iced Chai Latte</h3>
+                        <p class="main-body--category-sub__detailedtext">A creamy drink with a kick, this drink features spicy chai tea<br>blended with your choice of milk and poured over
+                            ice.</p>
+                        <p class="main-body--category-sub__amount">$6.99</p>
+                    </section>
+                </div>
+            </div>
+        </div>
+        <div class="main-body--category"> 
+            <div>
+                <h2 class="main-body--category-header">Pastries</h2>
+                <section class="main-body--category-sub">
+                    <h3 class="main-body--category-sub__text">Bacon Oatmeal Raisin Cookie</h3>
+                    <p class="main-body--category-sub__detailedtext">
+                        An infused bacon, sugar and egg mixture is folded into a 
+                       <br>sperfect blend of oats, flour, raisins and cinnamon to
+                       create a<br> soft and chewy textured cookie.
+                    </p>
+                    <p class="main-body--category-sub__amount">$3.50</p>
+                </section>
+                <section class="main-body--category-sub">
+                    <h3 class="main-body--category-sub__text">Blueberry, Lemon and Thyme Muffin</h3>
+                    <p class="main-body--category-sub__detailedtext">
+                        Tart and sweet, this classic blueberry and lemon combination
+                        <br>comes with an earthy twist.
+                    </p>
+                    <p class="main-body--category-sub__amount">$2.50</p>
+                </section>
+            </div>
+        </div>
     </main>
 </body>
 
