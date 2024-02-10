@@ -91,16 +91,10 @@ strong {
   text-decoration: none;
 }
 
-.header-nav {
-  font-family: "Open Sans";
-  font-weight: 400;
-}
-
-.main-menu--header {
+.menu {
   position: relative;
 }
-
-.main-menu--background {
+.menu__background {
   width: 100%;
   height: 700px;
   -o-object-fit: cover;
@@ -108,8 +102,7 @@ strong {
   -o-object-position: cover;
      object-position: cover;
 }
-
-.main-menu--titlebox {
+.menu__titlebox {
   position: absolute;
   width: 300px;
   height: 200px;
@@ -118,16 +111,14 @@ strong {
   right: 0;
   margin: auto;
 }
-
-.main-menu--textmenu {
+.menu__textmenu {
   color: white;
   text-align: center;
   font-size: 60px;
   font-weight: 300;
   margin-top: 0px;
 }
-
-.main-category--list {
+.menu__list {
   display: flex;
   list-style: none;
   background-color: #393939;
@@ -135,14 +126,12 @@ strong {
   padding: 16px;
   margin-top: -6px;
 }
-
-.main-category--list_item {
+.menu__item {
   display: inline;
   margin-left: 20px;
   margin-right: 20px;
 }
-
-.main-category--list__itemtext {
+.menu__text {
   text-decoration: none;
   color: white;
   font-size: 26px;
@@ -152,54 +141,48 @@ strong {
   padding-left: 30px;
 }
 
-.main-body--category {
+.category {
   display: flex;
   background-color: #FFF0ED;
   justify-content: center;
   margin-top: -20px;
   padding-bottom: 40px;
 }
-
-.main-body--category--second {
+.category__second {
   background-color: #f7f7f7;
 }
-
-.main-body--category > div {
-  display: inline-block;
-  padding: 1em;
-}
-
-.main-body--category-header {
+.category__header {
   font-size: 60px;
   font-weight: 300;
   color: #393939;
   text-align: center;
 }
-
-.main-body--category-sub {
+.category__sub {
   margin-top: 20px;
 }
-
-.main-body--category-sub__text {
+.category__sub-text {
   font-size: 33px;
   font-weight: 300;
   color: #393939;
   text-align: center;
   margin: 0px;
 }
-
-.main-body--category-sub__detailedtext {
+.category__subdetailedtext {
   font-size: 18px;
   font-weight: 400;
   color: #393939;
   text-align: center;
   font-style: italic;
 }
-
-.main-body--category-sub__amount {
+.category__subamount {
   font-size: 18px;
   font-weight: 400;
   color: #5BACC3;
   text-align: center;
   margin: 0px;
+}
+
+.main-body--category > div {
+  display: inline-block;
+  padding: 1em;
 }/*# sourceMappingURL=menu.css.map */
